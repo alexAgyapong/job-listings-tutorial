@@ -103,9 +103,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "job-listings-tutorial"
+  "defaultProject": "job-listings-tutorial",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
