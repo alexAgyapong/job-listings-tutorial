@@ -1,0 +1,8 @@
+$primary: hsla(198, 61%, 39%, 1);
+$secondary: hsla(8, 72%, 49%, 1);
+$bg-color: hsla(216, 20%, 95%, 1);
+
+.form-control:focus,
+.form-select {
+  box-shadow: none !important;
+}
