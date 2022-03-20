@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SharedModule } from './shared';
+import { CoreModule } from './core';
 
 @NgModule({
   declarations: [AppComponent, NavigationComponent, HomeComponent],
-  imports: [BrowserModule, AppRoutingModule, SharedModule, LayoutModule],
+  imports: [BrowserModule, AppRoutingModule, SharedModule, LayoutModule, CoreModule],
   providers: [],
   bootstrap: [AppComponent]
 })
